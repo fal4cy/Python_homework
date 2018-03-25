@@ -5,8 +5,8 @@
 
 class Car:                                      # car Class
     def __init__(self, year_model, make):       # init method with year_model & make accepted as arguments
-        self.__year_model = year_model          #
-        self.__make = make                      #
+        self.__year_model = year_model          # sets year_model 
+        self.__make = make                      # sets make
         self.__speed = 0                        # initializes the speed variable
 
     def get_speed(self):                        # display Speed Method
