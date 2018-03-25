@@ -17,5 +17,4 @@ class Car:                                      # car Class
 
     def brake(self):                            # brake Method
         self.__speed -= 5                       # subtracts 5 from speed variable
-        print(self.__speed)
 
